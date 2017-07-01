@@ -8,7 +8,7 @@ class acrosticSort{
     System.out.println(Arrays.toString(sortedList));
   }
 
-  public static int[] acrostic(int[] list) {
+  public static int[] acrostic(int[] list) { //first letters spell out "pillar"
     int[] ode =  list;
     long haiku = 575;
     long sonnet = 14;
