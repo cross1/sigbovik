@@ -1,0 +1,14 @@
+> padding cell
+,->+>,->+>,->+ read input and create counters (decrement input 
+               to make counters nonzero)
+[ while count not zero
+    [+<-<] decrement inputs & increment counts
+    > go to first input
+    [>>] go to first 0 input 
+    > point at count or off edge of counters
+    [ if not off the edge
+        . we found it
+        [>]> go to the edge
+    ]
+    << go to last count
+]
